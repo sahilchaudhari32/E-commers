@@ -1,0 +1,127 @@
+﻿
+> ecommerce@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 2 modules transformed.
+node.exe : 
+[31mΓ£ù[39m Build 
+failed in 35ms
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([31mΓ£   
+ ù[39m Build fai    
+led in 35ms:Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+[31merror during 
+build:
+[31m[vite]: Rollup 
+failed to resolve 
+import 
+"react-router-dom" 
+from "C:/Users/sahil/
+Videos/Code with Sahi
+l/coding/E-Commers/Ec
+ommerce/src/main.jsx"
+.
+This is most likely 
+unintended because 
+it can break your 
+application at 
+runtime.
+If you do want to 
+externalize this 
+module explicitly 
+add it to
+`build.rollupOptions.
+external`[31m
+    at viteLog (file:
+///C:/Users/sahil/Vid
+eos/Code%20with%20Sah
+il/coding/E-Commers/E
+commerce/node_modules
+/vite/dist/node/chunk
+s/config.js:33635:57)
+    at file:///C:/Use
+rs/sahil/Videos/Code%
+20with%20Sahil/coding
+/E-Commers/Ecommerce/
+node_modules/vite/dis
+t/node/chunks/config.
+js:33669:73
+    at onwarn (file:/
+//C:/Users/sahil/Vide
+os/Code%20with%20Sahi
+l/coding/E-Commers/Ec
+ommerce/node_modules/
+@vitejs/plugin-react/
+dist/index.js:76:7)
+    at file:///C:/Use
+rs/sahil/Videos/Code%
+20with%20Sahil/coding
+/E-Commers/Ecommerce/
+node_modules/vite/dis
+t/node/chunks/config.
+js:33669:28
+    at onRollupLog (f
+ile:///C:/Users/sahil
+/Videos/Code%20with%2
+0Sahil/coding/E-Comme
+rs/Ecommerce/node_mod
+ules/vite/dist/node/c
+hunks/config.js:33664
+:63)
+    at onLog (file://
+/C:/Users/sahil/Video
+s/Code%20with%20Sahil
+/coding/E-Commers/Eco
+mmerce/node_modules/v
+ite/dist/node/chunks/
+config.js:33467:4)
+    at file:///C:/Use
+rs/sahil/Videos/Code%
+20with%20Sahil/coding
+/E-Commers/Ecommerce/
+node_modules/rollup/d
+ist/es/shared/node-en
+try.js:20958:32
+    at Object.logger 
+[as onLog] (file:///C
+:/Users/sahil/Videos/
+Code%20with%20Sahil/c
+oding/E-Commers/Ecomm
+erce/node_modules/rol
+lup/dist/es/shared/no
+de-entry.js:22945:9)
+    at ModuleLoader.h
+andleInvalidResolvedI
+d (file:///C:/Users/s
+ahil/Videos/Code%20wi
+th%20Sahil/coding/E-C
+ommers/Ecommerce/node
+_modules/rollup/dist/
+es/shared/node-entry.
+js:21689:26)
+    at file:///C:/Use
+rs/sahil/Videos/Code%
+20with%20Sahil/coding
+/E-Commers/Ecommerce/
+node_modules/rollup/d
+ist/es/shared/node-en
+try.js:21647:26[39m
