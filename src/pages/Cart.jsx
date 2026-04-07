@@ -217,7 +217,7 @@ const Cart = () => {
                 {paymentMethod === 'upi' && (
                   <div className="upi-qr-container fade-in">
                     <img
-                      src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=shophub@upi%26pn=ShopHub%26am=${totalPrice}%26cu=INR`}
+                      src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=sahilanjana121@okhdfcbank%26pn=ShopHub%26am=${totalPrice}%26cu=INR`}
                       alt="UPI QR Code"
                     />
                     <div className="upi-details">
