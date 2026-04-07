@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
 
 # 🛍️ ShopHub — Premium React E-Commerce App
